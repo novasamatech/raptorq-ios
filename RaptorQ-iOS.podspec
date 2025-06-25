@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.vendored_frameworks = 'bindings/xcframework/raptorq.xcframework'
-  s.module_name      = 'RaptorQ_iOS'
-  s.public_header_files = 'bindings/include/**/*.h'   # makes headers visible to Swift
-  s.header_mappings_dir = 'bindings/include'
+  s.source_files = 'Sources/**/*.swift'
+  
 end
