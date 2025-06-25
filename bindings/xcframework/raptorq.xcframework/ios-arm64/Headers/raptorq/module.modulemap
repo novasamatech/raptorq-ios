@@ -1,0 +1,4 @@
+module raptorq {
+    header "raptorq/raptorq.h"
+    export *
+}
