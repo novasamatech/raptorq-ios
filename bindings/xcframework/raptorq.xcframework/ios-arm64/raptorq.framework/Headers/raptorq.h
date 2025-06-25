@@ -10,13 +10,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-typedef struct Option_Vec_u8 Option_Vec_u8;
-
-typedef struct RQContext {
-  ObjectTransmissionInformation oti;
-  Decoder decoder;
-  Option_Vec_u8 result;
-} RQContext;
+typedef struct RQContext RQContext;
 
 /**
  * Destroy the decoding context and release all resources.

@@ -34,7 +34,6 @@ use std::panic::{catch_unwind, AssertUnwindSafe};
 use core::{ptr, slice};
 use raptorq::{Decoder, EncodingPacket, ObjectTransmissionInformation};
 
-#[repr(C)]
 pub struct RQContext {
     oti: ObjectTransmissionInformation,
     decoder: Decoder,
