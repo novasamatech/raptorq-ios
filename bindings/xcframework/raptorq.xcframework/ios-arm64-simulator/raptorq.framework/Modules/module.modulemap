@@ -1,0 +1,4 @@
+framework module raptorq {
+    umbrella header "../Headers/raptorq.h"
+    export *
+}
